@@ -16,9 +16,9 @@ public class Uplodrpth {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http:/www.naukri.com");
-		driver.findElement(By.xpath("//span[text()='Later']")).click();
+		//driver.findElement(By.xpath("//span[text()='Later']")).click();
 		//absolute path
-		driver.findElement(By.id("input_resumeParser")).sendKeys("D:/CV_jashoda.docx");
+		//driver.findElement(By.id("input_resumeParser")).sendKeys("D:/CV_jashoda.docx");
 	}
 
 }
